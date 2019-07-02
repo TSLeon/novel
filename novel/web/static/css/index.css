@@ -1,0 +1,135 @@
+body{
+    background-color: #f5f5f5;
+}
+.div_nav_self{
+    padding-left: 0;
+    padding-right: 0;
+/*    box-shadow: darkgrey 5px 5px 10px 5px;*/
+}
+.navbar{
+    margin-bottom: 0;
+}
+.nav_self{
+    border-radius: 0;
+}
+.nav_h2{
+    border: 1px solid transparent;
+    padding-bottom: 15px;
+    border-bottom-color: darkgrey;
+}
+.jumbotron_self{
+    background-color: #f5f5f5;
+}
+.jumbotron_p{
+    color: #ffffff;
+}
+.anchor-link{
+    position: absolute;
+    display: none;
+    left: 150px;
+}
+.glyphicon-link{
+    font-size: 20px;
+    color: #0f0f0f;
+    font-style: normal;
+}
+.glyphicon-link:hover{
+    color: blueviolet;
+}
+.glyphicon-link:visited{
+    color: #0f0f0f;
+}
+.glyphicon-link:active{
+    color: #0f0f0f;
+}
+.glyphicon-link:link{
+    color: #0f0f0f;
+}
+.book-link{
+    color: #0f0f0f;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 210px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+.book-link:link{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.book-link:hover{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.book-link:active{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.book-link:visited{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+.img-self{
+    width: 150px;
+    height: 210px;
+    display: inline-block;
+
+    /*box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);*/
+    /*基本语法
+    color       阴影颜色     可选
+    h-shadow    水平偏移量   必选
+    v-shadow    垂直偏移量   必选
+    blur        模糊距离     可选
+    spread      阴影尺寸     可选
+    inset       内阴影       可选
+    */
+    transition: 0.5s;
+}
+.img-self:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*
+.img-self:hover{
+    transform: scale(1.04, 1.04);
+    -moz-transform: scale(1.04, 1.04);
+    -ms-transform: scale(1.04, 1.04);
+    -webkit-transform: scale(1.04, 1.04);
+    -o-transform: scale(1.04, 1.04);
+}*/
+.template-container{
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+#jumbotron_h1{
+    color: #ffffff;
+}
+#Brand_self{
+    width: 30px;
+    height: 25px;
+}
+
+a:hover{
+
+}
+a:link{
+
+}
+.info-div{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.info-div>p{
+    margin-top: 8px;
+}
+#hot-div-container{
+    background-color: white;
+    margin-bottom: 12px;
+}
